@@ -12,6 +12,7 @@ zuul.routes.authenticationservice: /auth/**
 #zuul.routes.licensestatic.path: /licensestatic/**
 # You’ve set up a static instance of your license service that will be called directly, not through Eureka by Zuul.
 #zuul.routes.licensestatic.url:  http://licenseservice-static:8081
+# Defines a service ID that will be used to look up the service in Ribbon
 #zuul.routes.licensestatic.serviceId: licensestatic
 #zuul.routes.licensestatic.ribbon.listOfServers: http://licenseservice-static1:8081, http://licenseservice-static2:8082
 #ribbon.eureka.enabled: false
