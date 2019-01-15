@@ -1,7 +1,9 @@
 # ignored-services attribute allows you to define a comma-separated list of Eureka service- ID s that you want to exclude from registration
+# The ignored-services attribute is set to * to exclude the registration of all eureka service ID based routes.
 zuul.ignored-services: "*"
 zuul.prefix:  /api
 # Service route in Zuul created automatically based on Eureka service ID : Eureka service ID the route maps to
+# Your organizationservice and licensingservice are mapped to the organization and licensing endpoints respectively.
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
 zuul.routes.authenticationservice: /auth/**
