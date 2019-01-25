@@ -24,3 +24,10 @@ hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 4500
 #hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
 #licensingservice.ribbon.ReadTimeout: 2
 signing.key: "345345fsdfsf5345"
+
+
+ssl.key-alias: selfsigned_localhost_sslserver
+ssl.key-store-provider: SUN
+ssl.key-store-type: JKS
+ssl.key-password: changeit
+ssl.key-store: ../ssl-server.jks
