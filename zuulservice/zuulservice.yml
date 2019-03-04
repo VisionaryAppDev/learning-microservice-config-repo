@@ -27,6 +27,10 @@ hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
 #hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
 ACCOUNTSERVICE.ribbon.ReadTimeout: 10000
 signing.key: "345345fsdfsf5345"
+ribbon.ReadTimeout: 30000
+ribbon.ConnectTimeout: 30000
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+
 
 
 ssl.key-alias: selfsigned_localhost_sslserver
