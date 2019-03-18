@@ -10,7 +10,7 @@ zuul.routes.authservice: /auth/**
 zuul.routes.paymentservice: /payment/**
 zuul.routes.userservice: /account/**
 zuul.routes.configserver: /config/**
-zuul.routes.studypost: /studypost/**
+zuul.routes.studypostservice: /studypost/**
 # licensestatic: Keyname Zuul will use to identify the service internally. Keyname Zuul will use to identify the service internallyKeyname Zuul will use to identify the service internally.
 # path: The static route for your licensing service
 #zuul.routes.licensestatic.path: /licensestatic/**
