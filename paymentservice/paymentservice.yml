@@ -3,7 +3,7 @@ spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
 spring.jpa.hibernate.ddl-auto: create-drop
 spring.database.driverClassName: "org.postgresql.Driver"
-spring.datasource.url: "jdbc:postgresql://192.168.10.9:5432/paymentDB"
+spring.datasource.url: "jdbc:postgresql://${DBMS_HOST_IP:192.168.10.9}:5432/paymentDB"
 spring.datasource.driver-class-name: "org.postgresql.Driver"
 spring.datasource.username: "yourpc"
 spring.datasource.password: "{cipher}1"
