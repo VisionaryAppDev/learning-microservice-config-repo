@@ -10,7 +10,7 @@ zuul.routes.authenticationservice: /auth/**
 zuul.routes.paymentservice: /payment/**
 zuul.routes.accountservice: /account/**
 zuul.routes.configserver: /config/**
-# licensestatic: Keyname Zuul will use to identify the service internally. Keyname Zuul will use to identify the service internallyKeyname Zuul will use to identify the service internally. 
+# licensestatic: Keyname Zuul will use to identify the service internally. Keyname Zuul will use to identify the service internallyKeyname Zuul will use to identify the service internally.
 # path: The static route for your licensing service
 #zuul.routes.licensestatic.path: /licensestatic/**
 # You’ve set up a static instance of your license service that will be called directly, not through Eureka by Zuul.

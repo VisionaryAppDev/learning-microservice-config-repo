@@ -14,7 +14,7 @@ signing.key: "345345fsdfsf5345"
 
 
 
-# EUREKA 
+# EUREKA
 eureka.instance.prefer-ip-address: true
 eureka.instance.ip-address: 192.168.10.9
 eureka.client.register-with-eureka: true
