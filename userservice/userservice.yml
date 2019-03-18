@@ -10,3 +10,11 @@ spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 signing.key: "345345fsdfsf5345"
+
+
+
+# ssl.key-alias: selfsigned_localhost_sslserver
+# ssl.key-store-provider: SUN
+# ssl.key-store-type: JKS
+# ssl.key-password: changeit
+# ssl.key-store: ../ssl-server.jks
