@@ -20,6 +20,7 @@ eureka.client.register-with-eureka: true
 eureka.client.fetch-registry: true
 eureka.client.service-url.default-zone: http://10.1.8.32:8761/eureka/
 
+server.port: 9090
 
 
 # ssl.key-alias: selfsigned_localhost_sslserver
