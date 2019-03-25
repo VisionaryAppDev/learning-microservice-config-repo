@@ -4,7 +4,7 @@ spring.jpa.show-sql: "true"
 # spring.jpa.hibernate.ddl-auto: create-drop
 spring.database.driverClassName: "org.postgresql.Driver"
 javax.persistence.schema-generation.database.action: create
-avax.persistence.schema-generation.create-database-schemas: true
+javax.persistence.schema-generation.create-database-schemas: true
 spring.datasource.url: "jdbc:postgresql://${DBMS_HOST_IP:192.168.10.9}:5432/user_db_dev"
 spring.datasource.driver-class-name: "org.postgresql.Driver"
 spring.datasource.username: "yourpc"
