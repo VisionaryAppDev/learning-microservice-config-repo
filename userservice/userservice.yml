@@ -5,6 +5,7 @@ spring.jpa.show-sql: "true"
 spring.database.driverClassName: "org.postgresql.Driver"
 spring.jpa.properties.javax.persistence.schema-generation.database.action: create-drop
 spring.jpa.properties.javax.persistence.schema-generation.create-database-schemas: true
+spring.jpa.properties.hibernate.format_sql: true # using this option only on dev, as it won't optimize query 
 spring.datasource.url: "jdbc:postgresql://${DBMS_HOST_IP:192.168.10.9}:5432/user_db_dev"
 spring.datasource.driver-class-name: "org.postgresql.Driver"
 spring.datasource.username: "yourpc"
@@ -14,11 +15,11 @@ spring.datasource.validationQuery: "SELECT 1"
 # spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 signing.key: "345345fsdfsf5345"
 
-
+#
 logging:
   level:
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
-    spring.jpa.properties.hibernate.format_sql: true
+    
 
 
 # ssl.key-alias: selfsigned_localhost_sslserver
